@@ -1,0 +1,3 @@
+# TerraformCollection
+Terraformでやれることをまとめる
+これから成長させていくけど、まずはGCPのインスタンスを作成する用

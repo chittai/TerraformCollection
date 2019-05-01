@@ -65,4 +65,8 @@ resource "google_compute_instance" "gcp-instance-3" {
   network_interface {
     network = "default"
   }
+
+  metadata {
+    ssh-keys = "${var.ssh_key_client}"
+  }
 }

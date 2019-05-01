@@ -3,4 +3,7 @@ variable "gcp_region_name" {}
 variable "gcp_key_path" {}
 variable "gcp_instance_1" {}
 variable "gcp_instance_2" {}
+variable "gcp_instance_3" {}
 variable "gcp_zone" {}
+variable "jenkins_nat_ip" {}
+variable "ssh_key_client" {}
